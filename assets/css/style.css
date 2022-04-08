@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dnone {
+    display: none;
+}
+
+.color-orange {
+    color: #EF7F2C;
+}
+
+.a-color-none:any-link {
+    color: black !important;
+    text-decoration: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-container th, .table-container td {
+    padding: 5px 10px;
+    text-align: center;
+    width: auto;
+}
+
+.table-container tr:first-of-type {
+    background-color: #ddd;
+}
+
+.table-container tr {
+    transition: 0.2s ease;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+.table-container a:any-link {
+    text-decoration: none;
+    color: #EF7F2C;
+}
+
+.report-main {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-projects-week-bg {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    position: fixed;
+    filter: opacity(0.3);
+}
+
+.align-projects-week {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 0 0 40px grey;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.align-projects-week-del {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    transition: all .2s ease;
+    background-color: #EF7F2C;
+    color: white;
+    border: 3px solid #EF7F2C;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.align-project-week-select {
+    margin: 0;
+    width: 35px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #ffecde;
+    outline: none;
+    transition: border .2s;
+    cursor: pointer;
+}
+
+.align-project-week-input {
+    margin: 0;
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #ffecde;
+    outline: none;
+    transition: border .2s;
+}
+
+.align-project-checkmark-container {
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+}
+
+.align-project-checkmark-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.grafik-table, .grafik-table th, .grafik-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.grafik-table-day {
+    width: 20px;
+}
+
+.grafik-main {
+    flex-direction: column;
+}
+
+.schedule-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(220, 220, 220);
+    opacity: 0.3;
+}
+
+.schedule-decision {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.schedule-decision-del {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px !important;
+    font-weight: bold;
+    border-radius: 100%;
+    transition: all .2s ease;
+    background-color: white;
+    color: #EF7F2C;
+    border: 3px solid #EF7F2C;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.schedule-main {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.schedule-container {
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 40px grey;
+    border-radius: 15px;
+    height: auto;
+}
+
+.schedule-headline {
+    padding: 15px;
+    border-radius: 15px 15px 0 0 ;
+    text-align: center;
+    background-color: #EF7F2C;
+    font-size: 30px;
+    color: white;
+}
+
+.schedule-links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.schedule-link-div {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+.schedule-link-inside {
+    min-width: 300px;
+    border-radius: 15px;
+    transition: all .2s ease;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 3px solid #EF7F2C;
+    color: #EF7F2C;
+    font-size: 18px;
+}
+
+.schedule-link-div:hover .schedule-link-inside {
+    background-color: #EF7F2C;
+    color: white;
+}
+
+.schedule-bg-white {
+    background-color: rgb(255,255,255);
+}
+
+.schedule-bg-orange {
+    background-color: rgb(255,226,204);
+}
+
+.schedule-bg-lightblue {
+    background-color: rgb(204,238,255);
+}
+
+.schedule-bg-blue {
+    background-color: rgb(10,100,255);
+}
+
+.grafik-break {
+    height: 50px;
+}
