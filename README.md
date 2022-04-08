@@ -18,3 +18,6 @@ W folderze umieszczony został plik .sql potrzebny do stworzenia oczekiwanej prz
 Konfiguracja:
 - importujemy bazę danych z pliku "sql_file.sql",
 - w pliku "functions.php" wpisujemy dane naszej maszyny zdalnej lub lokalnej.
+
+Informacja dodatkowa:
+- pliki są nieuporządkowane, a kod rozrzucony gdyż jest to jedynie część większego programu, a pliki wgrane najmniejszą linią oporu.
