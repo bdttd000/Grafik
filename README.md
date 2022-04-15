@@ -11,7 +11,7 @@ Dostępne funkcje to:
 
 Funckje te dostępne są za pomocą systemu "Drag & Drop"
 
-Przykład działania kodu live: https://jakubwartak.pl/grafik/
+Przykład działania kodu live: https://jakubwartak.pl/github/grafik/
 
 W folderze umieszczony został plik .sql potrzebny do stworzenia oczekiwanej przez pliki bazy danych.
 
